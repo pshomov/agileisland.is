@@ -97,3 +97,13 @@ h4 {
 .content-area h1, .content-area h2, .content-area h3 {
   color: #000;
 }
+
+
+.partner-list {
+  border-left: 1px solid #ccc;
+}
+
+.partner-list-item {
+  display: block;
+  text-align: center;
+}
