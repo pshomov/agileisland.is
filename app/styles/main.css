@@ -99,11 +99,48 @@ h4 {
 }
 
 
-.partner-list {
-  border-left: 1px solid #ccc;
+.content-area {
+  min-height: 700px;
+  position: relative;
 }
 
-.partner-list-item {
+.content-text {
+  padding: 20px;
+  padding-right: 320px;
+}
+
+.content-sponsor {
+  border-left: 1px solid #ccc;
+  bottom: 20px;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  width: 300px;
+}
+
+.sponsor-list-item {
   display: block;
   text-align: center;
+}
+
+
+.companybrand {
+  float: left;
+}
+.company-text {
+  float: left;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .content-text {
+    padding-right: 20px;
+  }
+  .content-sponsor {
+    position: static;
+    width: auto;
+  }
 }
