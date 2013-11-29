@@ -10,10 +10,17 @@ body {
 }
 
 
-nav, section {
+nav, section, footer {
   margin-bottom: 30px;
 }
 
+h1, h2, h3 {
+  color: #fff;
+}
+
+h4 {
+  color: red;
+}
 
 .img-responsive {
   display: block;
@@ -21,6 +28,21 @@ nav, section {
   max-width: 100%;
 }
 
+.btn {
+  background: red;
+  border-radius: 3px;
+  color: #fff;
+  padding: 4px 6px 4px 6px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.btn:after {
+  content: ">>";
+  margin-left: 10px;
+}
+.btn:hover {
+  background: violet;
+}
 
 
 /* NAV */
@@ -63,4 +85,15 @@ nav, section {
 /* PROMO */
 .promo-image {
   border: 7px solid #fff;
+}
+
+
+/* CONTENT */
+.content-area {
+  background: #fff;
+  color: #000;
+}
+
+.content-area h1, .content-area h2, .content-area h3 {
+  color: #000;
 }
