@@ -1,22 +1,47 @@
+
 body {
-    background: #fafafa;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
+  background: #202020;
+  color: #fff;
+  padding-top: 20px;
 }
 
-.hero-unit {
-    margin: 50px auto 0 auto;
-    width: 300px;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 30px;
-    background-color: #eee;
-    border-radius: 6px;
-    padding: 60px;
+nav {
+  margin-bottom: 30px;
 }
 
-.hero-unit h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
+
+.brand {
+  float: left;
 }
+
+.nav {
+  border-bottom: 1px solid red;
+  padding-bottom: 5px;
+}
+
+.nav-list {
+  float: right;
+  list-style: none;
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.nav-list-item {
+  display: inline-block;
+}
+
+.nav-list-item-btn {
+  color: #fff;
+  padding: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav-list-item-btn:hover {
+  color: red;
+}
+
+.nav-list-item-active {
+  font-size: 1.5em;
+}
+
