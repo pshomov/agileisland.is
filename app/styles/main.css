@@ -1,1 +1,36 @@
 
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #272727;
+}
+
+.header {
+	margin-top: 30px;
+	border-bottom: 1px solid #fff;
+}
+
+.brand {
+	float: left;
+	left:0;
+}
+
+.nav {
+	float : right;
+	right:0;
+	color: #fff;
+	list-style: none;
+	margin-top:50px
+}
+
+.nav-item {
+	display: inline-block;	
+	text-transform: uppercase;
+	margin: 10 5px 5 10px;
+}
+
+.nav-item-active {
+	font-size: 1.5em;
+}
