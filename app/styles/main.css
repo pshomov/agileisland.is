@@ -5,16 +5,17 @@
 
 body {
 	background-color: #272727;
+	font-size: 0.9em;
 }
 
 .header {
 	margin-top: 30px;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid red;
 }
 
 .brand {
 	float: left;
-	left:0;
+	margin-bottom: 8px;
 }
 
 .nav {
@@ -27,8 +28,11 @@ body {
 
 .nav-item {
 	display: inline-block;	
+}
+
+.nav-item-btn {
 	text-transform: uppercase;
-	margin: 10 5px 5 10px;
+	padding: 5px 5px 5px 15px;	
 }
 
 .nav-item-active {
