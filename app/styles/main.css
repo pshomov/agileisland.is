@@ -51,7 +51,7 @@ body {
 
 /** Promo **/
 
-.promo {
+.promo, .content {
 	margin-top: 30px;
 }
 .promo img {
@@ -62,4 +62,25 @@ body {
 	margin-left: 20px;
 	margin-top: 70px;
 	font-size: 1.1em;
+}
+
+/** Content **/
+
+.content{
+	background: #fff;
+	color: black;
+	position: relative;
+}
+.content-text {
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 320px;
+}
+.content-sponsor {
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-left: 1px solid black;
+	width: 300px;
+	padding-left: 20px;
 }
