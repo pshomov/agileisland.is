@@ -6,6 +6,7 @@
 body {
 	background-color: #272727;
 	font-size: 0.9em;
+	color: #fff;
 }
 
 .header {
@@ -37,4 +38,11 @@ body {
 
 .nav-item-active {
 	font-size: 1.5em;
+}
+
+
+/** Promo **/
+
+.promo-text {
+	font-size: 1.3em;
 }
