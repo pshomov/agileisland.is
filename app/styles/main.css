@@ -83,4 +83,6 @@ body {
 	border-left: 1px solid black;
 	width: 300px;
 	padding-left: 20px;
+	height: 100%;
+	min-height: 400px;
 }
