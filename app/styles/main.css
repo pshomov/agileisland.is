@@ -14,8 +14,8 @@
 body {
 	background-color: #272727;
 	color: #fff;
-	font-size: 0.9em;
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
 }
 
 .header {
@@ -96,6 +96,7 @@ body {
 }
 
 .sponsor-section {
+	color: #777;
 	margin-bottom: 20px;
 	margin-right: 20px;
 }
@@ -116,13 +117,29 @@ body {
 
 .gold, .silver, .bronze {
 	background-color: red;
+	color: #fff;
+	display: inline-block;
 	font-style: normal;
+	font-weight: 600;
+	font-weight: bolder;
 	margin: 1px 5px 1px 0;
 	padding: 3px 15px;
-	text-transform: uppercase;
-	display: inline-block;
-	width: 80px;
 	text-align: center;
+	text-transform: uppercase;
+	text-shadow: #999 -1px -1px;
+	width: 80px;
+}
+
+.gold {
+	background-image: linear-gradient(to bottom, #E6DC20 0%, #C7BA2E 55%, #E6DC20 100%);
+}
+
+.silver {
+	background-image: linear-gradient(to bottom, #CCCBC2 0%, #F5F4E9 50%, #CCCBC2 100%);
+}
+
+.bronze {
+	background-image: linear-gradient(to bottom, #ED9945 0%, #E8602E 50%, #ED9945 100%);
 }
 
 .sponsor-section span {
