@@ -15,6 +15,7 @@ body {
 	background-color: #272727;
 	color: #fff;
 	font-size: 0.9em;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -69,7 +70,7 @@ body {
 .content{
 	background: #fff;
 	color: black;
-	min-height: 680px;
+	min-height: 700px;
 	position: relative;
 }
 .content-text {
@@ -81,7 +82,7 @@ body {
 	border-left: 1px solid black;
 	bottom: 0;
 	height: 100%;
-	min-height: 680px;
+	min-height: 700px;
 	padding-bottom: 30px;
 	padding-left: 20px;
 	padding-top: 30px;
@@ -110,11 +111,18 @@ body {
 .sponsor-header {
 	border-bottom: 1px solid #333;
 	border-top: 1px solid #333;
-
+	font-style: italic;
 }
-.golden, .silver, .bronze {
-	text-transform: uppercase;
 
+.gold, .silver, .bronze {
+	background-color: red;
+	font-style: normal;
+	margin: 1px 5px 1px 0;
+	padding: 3px 15px;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 80px;
+	text-align: center;
 }
 
 .sponsor-section span {
