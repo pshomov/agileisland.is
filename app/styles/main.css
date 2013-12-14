@@ -116,7 +116,6 @@ body {
 }
 
 .gold, .silver, .bronze {
-	background-color: red;
 	color: #fff;
 	display: inline-block;
 	font-style: normal;
@@ -145,4 +144,28 @@ body {
 .sponsor-section span {
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+/** Footer **/
+
+.footer {
+	color: #999;
+	font-size: 12px;
+}
+
+.footer-text {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 30px;
+	top:10px;
+}
+
+.footer-text a {
+	color: #f00;
+	text-decoration: none;
+}
+
+.logo_footer {
+	float: left;
+	padding-bottom: 20px;
 }
