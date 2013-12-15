@@ -18,6 +18,23 @@ body {
 	font-size: 0.9em;
 }
 
+.btn {
+	background-image: linear-gradient(to bottom, #E6320E 0%, #A12408 51%, #91280E 100%);
+	border-radius: 5px;
+	box-shadow: -1px 2px 2px 0px #111;
+	color: #fff;
+	margin-top: 10px;
+	padding: 3px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: #111 0 1px;
+	vertical-align: middle;
+}
+
+.btn span + span {
+	margin-left: -7px;
+}
+
 .header {
 	border-bottom: 1px solid red;
 	margin-top: 30px;
@@ -62,7 +79,10 @@ body {
 .promo-text {
 	font-size: 1.1em;
 	margin-left: 20px;
-	margin-top: 70px;
+	margin-top: 40px;
+}
+.btn-wrapper {
+	margin-top: 10px;
 }
 
 /** Content **/
