@@ -35,6 +35,8 @@ body {
 	margin-left: -7px;
 }
 
+/*Header*/
+
 .header {
 	border-bottom: 1px solid red;
 	margin-top: 30px;
@@ -44,6 +46,8 @@ body {
 	float: left;
 	margin-bottom: 8px;
 }
+
+/*Menu*/
 
 .nav {
 	color: #fff;
