@@ -68,7 +68,22 @@ body {
 	font-size: 1.5em;
 }
 
+.mobile {
+	display: none;
+}
+
 @media screen  and (max-width: 767px){
+	#promotion_section {
+		margin-top: 70px;
+	}
+	#nav {
+		position: fixed;
+		width: 100%;
+		background-color: #111;
+		opacity: 0.8;
+		top:0;
+		padding-bottom: 10px;
+	}
 	.header {
 		border-bottom: 0;
 		position: relative;
@@ -77,18 +92,21 @@ body {
 		position: absolute;
 		right: 0;
 		float: none;
+		top:0;
 	}
 
 	.brand img {
-		height: 100%;		
+		height: 40px;		
 	}
 	
 	.nav {
 		display: none;
-		list-style: circle;
+		list-style: none;
 		float: none;
-		position: absolute;
+		position: static;
 		left:0;
+		padding-left: 0;
+		margin-top: 10px;
 	}
 
 	.nav-mobile {
@@ -96,7 +114,12 @@ body {
 	}
 
 	.nav-item {
-		display: inline;
+		display: block;
+		line-height: 1.4em;
+	}
+	.mobile {
+		display: inline-block;
+		font-size: 36px;
 	}
 }
 /** Promo **/
@@ -175,6 +198,7 @@ body {
 
 	.content-text{
 		padding-right: 20px;
+		margin-bottom: 30px;
 	}
 
 	.content-sponsor{
@@ -245,4 +269,10 @@ body {
 .logo_footer {
 	float: left;
 	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+	.footer-text {
+		margin-left: 0;
+	}
 }

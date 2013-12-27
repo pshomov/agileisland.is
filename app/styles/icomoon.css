@@ -23,6 +23,9 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-uniE600:before {
+.icon-paragraph-justify:before {
 	content: "\e600";
+}
+.icon-uniE601:before {
+	content: "\e601";
 }
