@@ -24,7 +24,7 @@
 
 </head>
 
-<body>
+<body ng-app ng-init="mobile={on:false}">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -37,12 +37,13 @@
     <nav>
         <div class="grid-container">
 
-            <div class="grid-100 header">
-                <div>
+            <div class="grid-100">
+                <div class="header clearfix">
                     <a class="brand">
                         <img src='images/logo.png'>
                     </a>
-                    <ul class="nav">
+                    <a href="" class="mobile" ng-click="mobile.on=!mobile.on">Mobile</a> 
+                    <ul class="nav" ng-class="{'nav-mobile' : mobile.on}">
                         <li class="nav-item"><a class="nav-item-btn">Front page</a>
                         </li>
                         <li class="nav-item"><a class="nav-item-btn">Registration</a>
@@ -162,6 +163,8 @@
     </section>
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="scripts/app.js"></script>
     <!-- endbuild -->
 </body>
 

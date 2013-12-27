@@ -35,7 +35,7 @@ body {
 	margin-left: -7px;
 }
 
-/*Header*/
+/*Menu*/
 
 .header {
 	border-bottom: 1px solid red;
@@ -46,8 +46,6 @@ body {
 	float: left;
 	margin-bottom: 8px;
 }
-
-/*Menu*/
 
 .nav {
 	color: #fff;
@@ -70,7 +68,37 @@ body {
 	font-size: 1.5em;
 }
 
+@media screen  and (max-width: 767px){
+	.header {
+		border-bottom: 0;
+		position: relative;
+	}
+	.brand {
+		position: absolute;
+		right: 0;
+		float: none;
+	}
 
+	.brand img {
+		height: 100%;		
+	}
+	
+	.nav {
+		display: none;
+		list-style: circle;
+		float: none;
+		position: absolute;
+		left:0;
+	}
+
+	.nav-mobile {
+		display: block;
+	}
+
+	.nav-item {
+		display: inline;
+	}
+}
 /** Promo **/
 
 .promo, .content {
@@ -138,6 +166,30 @@ body {
 	border-bottom: 1px solid #333;
 	border-top: 1px solid #333;
 	font-style: italic;
+}
+
+@media screen and (max-width: 767px) {
+	.content{
+		position: static;
+	}
+
+	.content-text{
+		padding-right: 20px;
+	}
+
+	.content-sponsor{
+		position: static;
+		border-left: 0;
+		padding-right: 20px;
+		width: auto;
+	}
+	.sponsor-section{
+		margin-right: auto;
+	}
+	.sponsor-section:last-of-type {
+		padding-bottom: 20px;
+	}
+
 }
 
 .gold, .silver, .bronze {
